@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Text to speech</title>
+    <style>
+        body, html {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .center-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        button {
+            background-color: teal;
+            color: white;
+            padding: 15px;
+            border: 0;
+            outline: none;
+            font-size: 14px;
+            min-width: 100px;
+            cursor: pointer;
+        }
+
+        input {
+            padding: 15px;
+            width: 250px;
+        }
+
+        input:hover {
+            outline: none;
+            box-shadow: none;
+        } 
+    </style>
+</head>
+
+<body>
+    <section class="center-section">
+        <article>
+            <input type="text" id="textInput" placeholder="Type the text you want to read out loud" />
+            <button type="button" id="speakButton">Speak</button>
+        </article>
+       
+    </section>
+</body>
+<script src="./index.js"></script>
+</html>
